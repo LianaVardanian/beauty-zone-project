@@ -1,0 +1,27 @@
+.advantages-card {
+  border: 1px solid var(--shadow);
+  box-shadow: 4px 0px 4px 0px var(--shadow);
+  border-radius: 32px;
+  width: 316px;
+  height: 181px;
+  background-color: var(--white);
+
+  // &__container {}
+
+  &__logo {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    margin-left: 130px;
+  }
+
+
+  &__text {
+    width: 252px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 32px;
+  }
+}

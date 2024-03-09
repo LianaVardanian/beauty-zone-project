@@ -1,0 +1,28 @@
+@import './base';
+@import './utils/fonts';
+@import './utils/texts';
+@import './utils/utils';
+@import './utils/variables';
+
+@import './components/open-modal';
+@import './components/buttons';
+@import './components/carousel-button';
+@import './components/input';
+@import './components/links';
+@import './components/pagination';
+@import './components/service-card';
+@import './components/advantages-card';
+
+@import './layouts/container';
+@import './layouts/advantages-section';
+@import './layouts/contact-section';
+@import './layouts/footer';
+@import './layouts/header';
+@import './layouts/form';
+@import './layouts/hero-section';
+@import './layouts/modal';
+@import './layouts/service-section';
+@import './layouts/section';
+@import './layouts/transformation-section';
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');

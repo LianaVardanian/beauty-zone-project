@@ -1,0 +1,38 @@
+.service-card {
+
+        &__container {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                background: linear-gradient(180.05deg,
+                                rgba(1, 28, 68, 0) 48.53%,
+                                rgba(1, 28, 68, 0.725825) 84.61%,
+                                #011C44 101.39%);
+                border-radius: 4px 120px;
+                overflow: hidden;
+                width: 344px;
+                height: 456px;
+
+        }
+
+        &__image {
+                width: 344px;
+                height: 456px;
+                position: absolute;
+                z-index: -1;
+
+        }
+
+        &__text {
+                font-family: 'roboto', sans-serif;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 1.2;
+                display: flex;
+                justify-content: center;
+                color: var(--white);
+                padding: 32px;
+        }
+
+}

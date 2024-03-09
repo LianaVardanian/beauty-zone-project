@@ -1,0 +1,38 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 1;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: rgba (255, 255, 255, 0.25);
+    backdrop-filter: blur(5px);
+    background: #FFFFFF40;
+
+    &__container {
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+    &__menu {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        gap: 56px;
+    }
+
+    &__icon {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center; 
+        gap: 34px;
+    }
+
+}

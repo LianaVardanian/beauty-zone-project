@@ -1,0 +1,65 @@
+.transformation-section {
+    padding-left: 100px;
+    // padding-bottom: 180px;
+    background-image: url(../images/background-wave.png);
+    height: 1785px;
+    width: 1470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 665px;
+    position: absolute;
+    z-index: -1;
+
+    &__content {
+        line-height: 1.7;
+
+    }
+
+    &__text {
+        font-size: 22px;
+        width: 670px;
+
+    }
+
+    &__title {
+        max-width: 530px;
+        margin-right: 180px;
+
+    }
+
+    &__photo {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        &-left {
+            padding-right: 209px;
+        }
+
+        &-right {
+            padding-left: 204px;
+        }
+    }
+
+    &__blue {
+        display: flex;
+        width: 40px;
+        height: 40px;
+    }
+
+    &__dark {
+        width: 64px;
+        height: 64px;
+    }
+
+    &__grey {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    &__container {
+        align-items: flex-start;
+        display: flex; 
+    }
+}

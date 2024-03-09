@@ -1,0 +1,20 @@
+.advantages-section {
+    padding-left: 160px;
+    padding-bottom: 96px;
+    padding-top: 850px;
+
+    &__container {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    &__list {
+        display: flex;
+        gap: 56px;
+
+
+    }
+
+
+}

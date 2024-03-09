@@ -1,0 +1,66 @@
+a,
+ul {
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+*,
+* ::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2,
+// h3,
+h4,
+h5,
+h6 {
+    color: var(--light-blue);
+    font-family: Play, sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 1.1;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.section {
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.logo {
+    width: 83px;
+    height: 42px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-fit: cover; 
+}

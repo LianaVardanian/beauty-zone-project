@@ -1,0 +1,35 @@
+.service-section {
+    padding-left: 112px;
+    padding-bottom: 96px;
+    
+
+    &__container {
+        overflow: hidden;
+        
+     
+ 
+    }
+
+    &__slider {
+        display: flex;
+        align-items: center;
+           gap: 32px;
+           
+
+    }
+
+    &__list {
+        display: flex;
+        margin: 0;
+            padding: 0;
+        
+        
+        
+    }
+
+    &__button {
+        display: flex;
+        // gap: 32px;
+
+    }
+}

@@ -1,0 +1,20 @@
+.contact-section {
+    padding-left: 176px;
+    padding-bottom: 96px;
+
+    &__container {
+        display: flex;
+        flex-basis: 1;
+        gap: 32px;
+
+    }
+
+    &__map {
+        width: 605px;
+        height: 481px;
+        border-radius: 32px;
+    }
+
+
+}
+
